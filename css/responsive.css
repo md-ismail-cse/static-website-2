@@ -1,0 +1,133 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) {
+    /* Ok */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Ok */
+}
+
+@media (max-width: 953px) {
+    .site-nav-wrapper {
+        padding: 0 15px;
+    }
+
+    .navbar-brand {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 827px) {
+    .navbar-nav {
+        float: none;
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .navbar li a {
+        display: inline-block;
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 7px 0;
+    }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .news-item,
+    .features-item,
+    .propusal-left,
+    .propusal-right,
+    .contact-item {
+        text-align: center;
+    }
+
+    .content-box {
+        padding: 30px 0;
+    }
+
+    .content-heading {
+        margin-bottom: 20px;
+    }
+
+    .parallax-wrapper {
+        padding: 90px 0;
+    }
+
+    .features-img img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:640px) {
+    section {
+        background-attachment: initial;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+@media (max-width: 480px) {
+    .navbar-brand {
+        width: 100px;
+    }
+
+    #portfolio-filters button {
+        margin-bottom: 5px;
+    }
+
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+@media (max-width: 320px) {
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel-caption {
+        -webkit-transform: translateY(-40%);
+        transform: translateY(-60%);
+    }
+
+    .content-heading h1 {
+        font-size: 30px;
+    }
+
+    .team-item img {
+        height: 200px;
+    }
+
+    .parallax-item h1 {
+        font-size: 30px;
+    }
+
+    .portfolio-item img {
+        height: 150px;
+    }
+
+}
